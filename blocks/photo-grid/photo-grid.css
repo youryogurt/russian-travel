@@ -10,3 +10,12 @@
   padding-left: 48px;
   padding-right: 48px;
 }
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4, 225px);
+    gap: 14px;
+    max-width: 928px;
+  }
+}

@@ -2,7 +2,5 @@
   display: flex;
   flex-direction: column;
   justify-content: left;
-  padding-left: 148px;
-  padding-right: 148px;
- margin: 0;
+  margin: 0;
 }
