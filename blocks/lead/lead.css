@@ -1,0 +1,8 @@
+.lead {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* width: 984px; */
+  /* margin-right: 148px; */
+  /* justify-content: center; */
+}
