@@ -15,3 +15,14 @@
   margin-right: 18px;
   border-bottom: 2px #fff solid;
 }
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .header__lang-link:first-child {
+    border-bottom: 1px #fff solid;
+  }
+}

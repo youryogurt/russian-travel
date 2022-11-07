@@ -13,5 +13,12 @@
   .cover {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    padding-top: 30px;
   }
 }

@@ -10,6 +10,22 @@
   margin-top: 0;
 }
 
-.place__paragraph:first-child {
+.place__paragraph:not(:last-child) {
   margin-bottom: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+  .place__paragraph:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
