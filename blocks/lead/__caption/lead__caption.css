@@ -9,3 +9,15 @@
   text-transform: uppercase;
   margin: 8px auto 0 0;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
+}

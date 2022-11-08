@@ -1,5 +1,11 @@
 .place__website {
-  /* margin-top: 163px;
-  margin-bottom: 48px; */
   align-self: end;
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    align-self: flex-start;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }

@@ -20,3 +20,26 @@
     padding-right: 48px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px 352px;
+    grid-template-rows: minmax(min-content, max-content) minmax(340px, max-content);
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 60px;
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 50px;
+    gap: 32px;
+  }
+}
