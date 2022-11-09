@@ -7,3 +7,10 @@
   letter-spacing: 2px;
   color: #aaa;
 }
+
+@media screen and (max-width: 767px) {
+  .place__url-heading {
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+}

@@ -13,6 +13,8 @@
   color: #fff;
   position: relative;
   z-index: 0;
+  width: 100%;
+  height: auto;
 }
 
 .cover__link::before {
@@ -33,8 +35,26 @@
   opacity: .8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .cover__link {
     min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__link {
+    min-height: 350px;
+  } 
+}
+
+@media screen and (max-width: 424px) {
+  .cover__link {
+    min-height: 200px;
   }
 }
