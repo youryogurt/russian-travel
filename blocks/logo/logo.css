@@ -1,14 +1,9 @@
 .logo {
-  width: 176px;
-  height: 52px;
-  position: absolute;
-  top: 28px;
-  left: 48px;
+  max-width: 176px;
 }
 
-/* @media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .logo {
-    width: 142px;
-    height: 42px;
+    max-width: 142px;
   }
-} */
+}

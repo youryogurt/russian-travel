@@ -4,6 +4,6 @@
 
 @media screen and (max-width: 320px) {
   .line-break {
-    white-space: none;
+    white-space: normal;
   }
 }

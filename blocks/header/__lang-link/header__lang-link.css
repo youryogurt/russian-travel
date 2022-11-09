@@ -1,6 +1,6 @@
 .header__lang-link {
-  width: 30px;
-  height: 28px;
+  max-width: 30px;
+  max-height: 28px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -8,21 +8,17 @@
   line-height: 28px;
   color: white;
   text-decoration: none;
-  justify-content: end;
+  width: 100%;
 }
 
 .header__lang-link:first-child {
   margin-right: 18px;
-  border-bottom: 2px #fff solid;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
-  }
-
-  .header__lang-link:first-child {
-    border-bottom: 1px #fff solid;
+    box-sizing: border-box;
   }
 }
