@@ -1,5 +1,4 @@
 .header {
-  max-height: 52px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -28,6 +27,5 @@
   .header {
     width: calc(100% - 16px * 2);
     margin-top: 16px;
-    max-height: 42px;
   }
 }

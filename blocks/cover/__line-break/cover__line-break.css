@@ -1,9 +1,0 @@
-.cover__line-break {
-  white-space: normal;
-}
-
-@media screen and (max-width: 767px) {
-  .cover__line-break {
-    white-space: pre-line;
-  }
-}

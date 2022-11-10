@@ -3,6 +3,7 @@
   background: url(../../../images/overlay-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   box-sizing: border-box;
   display: flex;
   position: relative;
